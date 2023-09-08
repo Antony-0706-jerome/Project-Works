@@ -1,0 +1,37 @@
+Views about the problem statement 
+   The newspaper company 'The Daily Buzz' was founded by a group of journalists and entrepreneurs who were passionate about providing accurate and trustworthy 
+news to the people of Sydney. After a few years, they grew and evolved. To grow even further and attract new readers while increasing sales, they planned to 
+publish the weather conditions for the next day. For that, based on previous records, they need to predict the future weather conditions.
+
+To improve this selected model’s performance even further
+  Boosting:
+     
+  	Boosting is a machine learning ensemble technique that combines multiple weak learners (usually simple models) to create a strong, 
+   high-performance model. The main aim is to improve the model performance. We can able to define the number of model  need to be 
+   created using the 'n-estimators' parameter.
+     
+  Types of boosting:
+  
+  	1. Gradient Boosting.
+   
+  	2. XGBoosting(Extremely Gradient Boosting).
+   
+  	3. ADA Boosting (Adaptive Boosting).
+  
+  Bagging:
+  
+  	Bagging or Bootstrap Aggregation, is an ensemble learning technique in machine learning that involves training  multiple models on different 
+   subsets of the training data and then combining their predictions to improve overall performance and reduce variance. We can able to define the 
+   number of model need to be created using the 'estimators' parameter.
+  
+  Hyperparameter tuning:
+  
+  	Hyperparameter tuning is the process of finding the optimal combination of parameters for a machine learning model in 
+   order to achieve the best performance on a given dataset.
+  
+  Types of Hyperparameter tuning:
+  
+  	1. Gridsearchcv - it will check with all the combination of the values. It needs more computation power and takes more time to complete the 
+   execution as a parameter.
+   
+  	2. RandomSearch - it will randomly check for the best combination of the parameter.
