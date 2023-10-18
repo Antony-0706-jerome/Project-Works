@@ -1,3 +1,5 @@
+-- Loading the data
+
 create table IPL_Ball (id bigint , innings int , over int , ball int , batsman varchar(50) , non_striker varchar(50) ,
 					  bowler varchar(50) , batsman_runs int , extra_runs int , total_runs int , is_wicket int , 
 					  dismissal_kind varchar(50) , player_dismissed varchar(50) , fielder varchar(50) , 
